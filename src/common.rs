@@ -996,12 +996,12 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://ai.lozan.com:21114".to_owned()
+    "http://111.170.33.15:21114".to_owned()
 }
 
 #[inline]
 pub fn is_public(url: &str) -> bool {
-    url.contains("rustdesk.com")
+    url.contains("111.170.33.15")
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
